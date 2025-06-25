@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class DragAndDropTest {
 
     @BeforeAll
-    static void beforeAll() {
+    static void setupConfig() {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://the-internet.herokuapp.com";
         Configuration.pageLoadStrategy = "eager";
