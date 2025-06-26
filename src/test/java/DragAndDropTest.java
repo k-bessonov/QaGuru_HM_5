@@ -16,7 +16,7 @@ public class DragAndDropTest {
     }
 
     @Test
-    void DragAndDropActionsTest() {
+    void dragAndDropActionsTest() {
 
         open("/drag_and_drop");
 
@@ -37,7 +37,7 @@ public class DragAndDropTest {
     }
 
     @Test
-    void DragAndDropCommandTest() {
+    void dragAndDropCommandTest() {
 
         open("/drag_and_drop");
 
