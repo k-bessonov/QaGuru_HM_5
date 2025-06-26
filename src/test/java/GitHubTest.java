@@ -17,7 +17,7 @@ public class GitHubTest {
     }
 
     @Test
-    void SolutionsClickTest() {
+    void solutionsClickTest() {
 
         open("/");
         $("#hero-section-brand-heading").shouldHave(text("Build and ship software on a single, collaborative platform"));
